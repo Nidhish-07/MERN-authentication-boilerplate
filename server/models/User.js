@@ -29,7 +29,7 @@ const userSchema = new mongoose.Schema(
     },
     resetPassoword: {
       data: String,
-      default:''
+      // default:''
     },
   },
   { timestamps: true }
